@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NickStore | Ecommerce Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <nav class="nav1">
+                <div class="store">
+                    <h1>Nick<span>Store</span> <i class="fa fa-shopping-cart"></i></h1>
+                </div>
+                <div class="nav1-right">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>
+            </nav> 
+
+            <div class="navbar">
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href=""><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href=""><i class="fa fa-user"></i> Kids</a></li>
+                        <li><a href=""><i class="fa fa-calendar-check-o"></i> Special Offers</a></li>
+                        <li><a href=""><i class="fa fa-address-book"></i> Contact</a></li>
+                        <li><a href=""><i class="fa fa-search"></i> Find</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+            <div class="featured">
+                <din class="featured-text">
+                    <h2>Give Your Workout<br> A New Style!</h2>
+                    <p>Succes isn't always about greatness. It's about consistency. <br> Consistent hard work gains
+                        success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </din>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/adidas.jpg">
+                    <h1 style="text-align: center;">Adidas</h1>
+                </div>
+                <div class="col-3">
+                    <img src="images/puma.jpg">
+                    <h1 style="text-align: center;">Puma</h1>
+                </div>
+                <div class="col-3">
+                    <img src="images/nike.jpg">
+                    <h1 style="text-align: center;">Nike</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="product-intro">
+            <h1 class="title">Ipl <span>T-shirts</span></h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="images/Rcb.jpeg">
+                <h4>RCB T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (15,101)
+                </div>
+                <p>&#8377; 350</p>
+            </div>
+            <div class="card">
+                <img src="images/csk.jpg">
+                <h4>CSK T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> (10,980)
+                </div>
+                <p>&#8377; 350</p>
+            </div>
+            <div class="card">
+                <img src="images/Gt.webp">
+                <h4>GT T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (12,141)
+                </div>
+                <p>&#8377; 350</p>
+            </div>
+            <div class="card">
+                <img src="images/MI.webp">
+                <h4>MI T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (14,801)
+                </div>
+                <p>&#8377; 350</p>
+            </div>
+        </div>
+        <div class="product-intro">
+            <h1 class="title">Latest <span>products</span></h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="images/product-2.jpg">
+                <h4>Branded shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (13,01)
+                </div>
+                <p>&#8377; 350</p>
+            </div>
+            <div class="card">
+                <img src="images/product-6.jpg">
+                <h4>Puma T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (9,182)
+                </div>
+                <p>&#8377; 250</p>
+            </div>
+            <div class="card">
+                <img src="images/product-7.jpg">
+                <h4>Shoks (3 in 1 Combo)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (5,452)
+                </div>
+                <p>&#8377; 120</p>
+            </div>
+            <div class="card">
+                <img src="images/product-8.jpg">
+                <h4>branded watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> (15,102)
+                </div>
+                <p>&#8377; 300</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="images/product-9.jpg">
+                <h4>branded watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (7,542)
+                </div>
+                <p>&#8377; 200</p>
+            </div>
+            <div class="card">
+                <img src="images/product-5.jpg">
+                <h4>branded shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> (8,189)
+                </div>
+                <p>&#8377; 450</p>
+            </div>
+            <div class="card">
+                <img src="images/product-11.jpg">
+                <h4>casual shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (6,402)
+                </div>
+                <p>&#8377; 350</p>
+            </div>
+            <div class="card">
+                <img src="images/product-12.jpg">
+                <h4>Night track-pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (5,102)
+                </div>
+                <p>&#8377; 150</p>
+            </div>
+        </div>
+        <div class="product-intro">
+            <h1 class="title">Kids <span>Item's</span></h1>
+        </div>
+        <div class="row">
+            <div class="card">
+                <img src="images/kid-1.webp">
+                <h4>boy Cloths</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (15,101)
+                </div>
+                <p>&#8377; 150</p>
+            </div>
+            <div class="card">
+                <img src="images/kid-2.jpeg">
+                <h4>girl cloths</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i> (10,980)
+                </div>
+                <p>&#8377; 180</p>
+            </div>
+            <div class="card">
+                <img src="images/kid-3.webp">
+                <h4>Girl shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (12,141)
+                </div>
+                <p>&#8377; 120</p>
+            </div>
+            <div class="card">
+                <img src="images/kid-4.avif">
+                <h4>Boys shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i> (14,801)
+                </div>
+                <p>&#8377; 150</p>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------  Offer  ---------------------------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/airpods-pro.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>exclusively Available On NickStore</p>
+                    <h1>Airpods Pro</h1>
+                    <small>Up to 2x more Active Noise Cancellation. Transparency mode to hear the world around you. All-new Adaptive Audio intelligently tailors noise control to your environment. Spatial Audio takes immersion to a remarkably personal level. And a single charge delivers 6 hours of battery life. </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------  headphones swiper  ----------------------------------->
+    <section class="trends">
+        <div class="product-intro">
+            <h1 class="title">Top <span>Trends</span></h1>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/headphone1.png" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/headphone2.png" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/headphone3.png" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/headphone1.png" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/headphone2.png" alt=""/>
+              </div>
+             
+            </div>  
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!------------------------------   Footer   -------------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook"></i> Facebook</li>
+                        <li><i class="fa fa-twitter"></i> Twitter</li>
+                        <li><i class="fa fa-instagram"></i> Instagram</li>
+                        <li><i class="fa fa-youtube"></i> YouTube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <div class="store">
+                        <h1>Nick<span>Store</span><i class="fa fa-shopping-cart"></i></h1>
+                    </div>
+                    <p>Our purpose Is To Sustainably Make the pleasure and Benefits of Sports Accesible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Nikhil Chouhan</p>
+        </div>
+    </div>
+
+    
+
+    <!-------------------------  Js for toggle menu  -------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
